@@ -1,0 +1,22 @@
+{
+  "name": "vuetest",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "extroxe <979847073@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "axios": "^0.17.1"
+  }
+}

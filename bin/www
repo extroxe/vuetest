@@ -1,0 +1,8 @@
+#!/user/bin/env node
+
+var app = require('../app');
+// var config = require('../config/config');
+
+app.listen("1000", function(){
+	console.log('app started, listening on port:1000')
+})
