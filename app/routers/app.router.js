@@ -7,7 +7,7 @@ module.exports = function(){
 	app.use(bodyParser.urlencoded({ extended:false }));
 	app.use(bodyParser.json());
 
-	app.use(express.static('./public'));
+	app.use(express.static('./public', {'index':'test.html'}));
 
 	app.route('/news')
 	.get(controllers.list)

@@ -7,9 +7,12 @@
 <body >
 	<div id="app">
 		<span>{{message}}</span>
+		<span v-for="data in infoList">{{data.age}}</span>
 	</div>
+	
 	<script type="text/javascript" src="./lib/vue/vue.js"></script>
 	<script type="text/javascript" src="./lib/axios/dist/axios.js"></script>
-	<script type="text/javascript" src="./service/test.js"></script>
+	<!-- <script type="text/javascript" src="./service/test.js"></script> -->
+	<script type="text/javascript" src="./js/homePage.js"></script>
 </body>
 </html>
