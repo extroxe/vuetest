@@ -1,3 +1,5 @@
+import { Actionsheet } from 'vux';
+
 var vm = new Vue({
 	el:'#app',
 	data:{
@@ -20,3 +22,5 @@ var vm = new Vue({
 		}
 	}
 })
+
+ vm.component("actionsheet", vuxActionsheet);

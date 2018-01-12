@@ -20,6 +20,9 @@
     "webpack": "^3.8.1"
   },
   "devDependencies": {
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "vux-loader": "^1.1.30",
     "webpack-dev-server": "^2.9.5"
   }
 }
